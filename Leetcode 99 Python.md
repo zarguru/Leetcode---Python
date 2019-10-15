@@ -47,7 +47,7 @@ Could you devise a constant space solution?
 
 ---
 
-```
+```Python
 
 """
  Definition for a binary tree node.
@@ -56,8 +56,8 @@ Could you devise a constant space solution?
          self.val = x
          self.left = None
          self.right = None
- Use Morris Traversal; Time O(n), Space O(1)
 """
+# Use Morris Traversal; Time O(n), Space O(1)
 
 class Solution:
     def recoverTree(self, root: TreeNode) -> None:
