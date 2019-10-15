@@ -1,13 +1,7 @@
-99. Recover Binary Search Tree
-Hard
+## Leetcode 99. Recover Binary Search Tree
+## Hard
 
-969
-
-55
-
-Favorite
-
-Share
+---
 Two elements of a binary search tree (BST) are swapped by mistake.
 
 Recover the tree without changing its structure.
@@ -51,6 +45,9 @@ Follow up:
 A solution using O(n) space is pretty straight forward.
 Could you devise a constant space solution?
 
+---
+
+```
 
 """
  Definition for a binary tree node.
@@ -96,3 +93,4 @@ class Solution:
                     
         first.val, second.val = second.val, first.val   # simplest way to swap
         # Use XOR to swap integers: x ^= y y ^= x x ^= y
+```
